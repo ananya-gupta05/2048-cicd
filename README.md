@@ -17,7 +17,7 @@ Every time code is pushed to the `master` branch, the pipeline automatically:
 
 ## Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](image.png)
 
 ```
 Developer → GitHub → CodePipeline → CodeBuild → ECR → ECS (EC2) → Browser
