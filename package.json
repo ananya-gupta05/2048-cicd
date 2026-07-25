@@ -1,0 +1,15 @@
+{
+  "name": "2048-deploy-dashboard",
+  "version": "1.0.0",
+  "description": "Live CI/CD status dashboard - reads AWS pipeline/build/ECS state, falls back to build-time metadata",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@aws-sdk/client-codepipeline": "^3.600.0",
+    "@aws-sdk/client-codebuild": "^3.600.0",
+    "@aws-sdk/client-ecs": "^3.600.0"
+  }
+}
